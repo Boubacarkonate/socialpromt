@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1783191241978" clover="3.2.0">
+  <project timestamp="1783191241978" name="All files">
+    <metrics statements="116" coveredstatements="81" conditionals="83" coveredconditionals="65" methods="41" coveredmethods="21" elements="240" coveredelements="167" complexity="0" loc="116" ncloc="116" packages="4" files="9" classes="9"/>
+    <package name="components">
+      <metrics statements="85" coveredstatements="50" conditionals="65" coveredconditionals="47" methods="36" coveredmethods="16"/>
+      <file name="PromptResult.tsx" path="C:\Users\bbs8\socialprompt\src\components\PromptResult.tsx">
+        <metrics statements="24" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="5"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="36" count="10" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="132" count="8" type="stmt"/>
+        <line num="152" count="2" type="stmt"/>
+        <line num="171" count="10" type="stmt"/>
+      </file>
+      <file name="ResidentForm.tsx" path="C:\Users\bbs8\socialprompt\src\components\ResidentForm.tsx">
+        <metrics statements="44" coveredstatements="36" conditionals="53" coveredconditionals="43" methods="18" coveredmethods="11"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="45" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="46" count="17" type="stmt"/>
+        <line num="47" count="17" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="51" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="cond" truecount="4" falsecount="2"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="63" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="64" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="65" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="72" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="88" count="17" type="stmt"/>
+        <line num="108" count="6" type="stmt"/>
+        <line num="127" count="2" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="161" count="68" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="189" count="51" type="stmt"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="216" count="51" type="stmt"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="266" count="0" type="stmt"/>
+        <line num="279" count="0" type="stmt"/>
+        <line num="283" count="51" type="stmt"/>
+      </file>
+      <file name="WarningBanner.tsx" path="C:\Users\bbs8\socialprompt\src\components\WarningBanner.tsx">
+        <metrics statements="17" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="utils.ts" path="C:\Users\bbs8\socialprompt\src\lib\utils.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="697" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.prompts">
+      <metrics statements="22" coveredstatements="22" conditionals="18" coveredconditionals="18" methods="4" coveredmethods="4"/>
+      <file name="animation.ts" path="C:\Users\bbs8\socialprompt\src\lib\prompts\animation.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="17" count="13" type="stmt"/>
+        <line num="19" count="13" type="cond" truecount="6" falsecount="0"/>
+        <line num="23" count="13" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\bbs8\socialprompt\src\lib\prompts\index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+      </file>
+      <file name="mediation.ts" path="C:\Users\bbs8\socialprompt\src\lib\prompts\mediation.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="19" count="7" type="cond" truecount="6" falsecount="0"/>
+        <line num="23" count="7" type="stmt"/>
+      </file>
+      <file name="ppa.ts" path="C:\Users\bbs8\socialprompt\src\lib\prompts\ppa.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="19" count="9" type="cond" truecount="6" falsecount="0"/>
+        <line num="23" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="types">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\bbs8\socialprompt\src\types\index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="50" count="6" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="63" count="6" type="stmt"/>
+        <line num="69" count="6" type="stmt"/>
+        <line num="75" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
