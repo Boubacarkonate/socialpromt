@@ -28,18 +28,27 @@ interface ResidentFormProps {
   isLoading?: boolean;
 }
 
-const INITIAL_STATE = {
-  prenom: "",
-  age: "" as unknown as number,
-  typeHandicap: "" as TypeHandicap,
-  niveauAutonomie: "" as NiveauAutonomie,
-  modeCommunication: "" as ModeCommunication,
-  axesPPA: "",
-  typeContenu: "animation" as ContentType,
-  contexte: "",
+type FormState = {
+  prenom: string;
+  age: number | "";
+  typeHandicap: TypeHandicap | "";
+  niveauAutonomie: NiveauAutonomie | "";
+  modeCommunication: ModeCommunication | "";
+  axesPPA: string;
+  typeContenu: ContentType;
+  contexte: string;
 };
 
-type FormState = typeof INITIAL_STATE;
+const INITIAL_STATE: FormState = {
+  prenom: "",
+  age: "",
+  typeHandicap: "",
+  niveauAutonomie: "",
+  modeCommunication: "",
+  axesPPA: "",
+  typeContenu: "animation",
+  contexte: "",
+};
 type FieldErrors = Partial<Record<keyof ResidentProfile, string>>;
 
 export function ResidentForm({ onSubmit, isLoading = false }: ResidentFormProps) {
@@ -123,8 +132,8 @@ export function ResidentForm({ onSubmit, isLoading = false }: ResidentFormProps)
               min={18}
               max={99}
               placeholder="ex. 34"
-              value={form.age === "" ? "" : form.age}
-              onChange={(e) => set("age", e.target.value as unknown as number)}
+              value={form.age}
+              onChange={(e) => set("age", e.target.value === "" ? "" : Number(e.target.value))}
               aria-describedby={errors.age ? "age-error" : undefined}
               aria-invalid={!!errors.age}
             />
