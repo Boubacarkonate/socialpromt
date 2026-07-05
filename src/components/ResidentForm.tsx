@@ -85,9 +85,9 @@ export function ResidentForm({ onSubmit, isLoading = false }: ResidentFormProps)
     onSubmit({
       prenom: form.prenom.trim(),
       age: Number(form.age),
-      typeHandicap: form.typeHandicap,
-      niveauAutonomie: form.niveauAutonomie,
-      modeCommunication: form.modeCommunication,
+      typeHandicap: form.typeHandicap as TypeHandicap,
+      niveauAutonomie: form.niveauAutonomie as NiveauAutonomie,
+      modeCommunication: form.modeCommunication as ModeCommunication,
       axesPPA: form.axesPPA.trim(),
       typeContenu: form.typeContenu,
       contexte: form.contexte.trim() || undefined,
